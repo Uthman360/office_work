@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'ANDALEMO';
+  src: url('./assets/fonts/ANDALEMO.TTF');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-image: url("./assets/bg_body.jpg") !important;
+  font-family: ANDALEMO, sans-serif;
+  overflow-x: hidden;
+
+}
+
+.wrapper {
+  margin: 0 auto;
+  overflow-x: hidden;
+
+}
+
+.wrapper .footer {
+  margin: 0;
+  width: 100vw;
+}
+
+.wrapper .video_section {
+  width: 100vw;
+
+}
+.wrapper .client_section{
+  margin: 0;
+  width: 100vw;
+}
+.player-b8f6941f-3cad-4f22-bcec-f04a2e00a7fe {
+  max-width: calc(255.778vh) !important;
+  height: calc(56.25vw) !important;
+  margin-left: 5px !important;
+  margin-right: 19px !important;
+}
