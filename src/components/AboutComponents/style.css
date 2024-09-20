@@ -194,6 +194,16 @@
         margin-right: 35px;
     }
 
+
+    .hero_section_about .description {
+        font-size: 22px;
+        margin: 0 -24px;
+    }
+    .hero_section_about .heading {
+        font-size: 40px;
+        margin: 0 -24px;
+
+    }
     .footer_about h3 {
         font-size: 24px;
     }

@@ -16,7 +16,6 @@
 
 
 .upbeing {}
-
 .parent{
     width: 100%;
     max-width: 1500px;
@@ -39,6 +38,7 @@
     max-width: 1500px;
     margin: 0 auto;
 }
+
 .being h2 {
     caret-color: #1a1b1f;
     color: #1a1b1f;
@@ -47,7 +47,10 @@
     font-size: 30px;
     margin-top: 50px;
 }
-.product_h{
+
+
+
+.product_h {
     caret-color: #1a1b1f;
     color: #1a1b1f;
     font-family: NeueHaasDisplayRoman, sans-serif;
@@ -56,6 +59,7 @@
     margin-top: 50px;
     margin-left: 45px;
 }
+
 .being p {
     color: #000;
     font-size: 20px;
@@ -130,6 +134,7 @@
     line-height: 1.35em;
     font-family: NeueHaasDisplayMediu, sans-serif;
 }
+
 
 .info_container  .info_item span {
     width: calc(100% - 180px);
@@ -351,6 +356,8 @@
     margin-bottom: 8px;
 }
 .productdesign .portfolio_info span  {
+
+
     display: block;
     color: #0237F3;
     font-family: NeueHaasDisplayRoman, sans-serif;
@@ -414,6 +421,7 @@
     font-family: "Roboto", Sans-serif;
 }
 .productdesign .portfolio_info  p {
+
     color: #000;
     font-size: 20px;
     line-height: 27px;
@@ -421,6 +429,7 @@
     margin-top: 30px;
 
 }
+
 /* peg */
 
 .peg h2 {
@@ -528,6 +537,37 @@
     font-size: 16px; /* Adjust the size of the arrow icon inside the buttons */
     font-weight: bold !important;
   }
+
+#mySwiper {
+    padding: 0 60px !important;
+    margin: 0 30px !important;
+}
+
+#mySwiper img {
+    padding: 40px 100px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #000 !important;
+
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 20px;
+    /* Adjust this for the desired width */
+    height: 20px;
+    /* Adjust this for the desired height */
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 16px;
+    /* Adjust the size of the arrow icon inside the buttons */
+    font-weight: bold !important;
+}
+
 @media(max-width:886px) {
     .group_content {
         flex-direction: column;
@@ -624,5 +664,15 @@
 
     #mySwiper img{
         padding: 40px 0px;
+    }
+    #mySwiper img {
+        padding: 40px 0px;
+    }
+
+    .productdesign .portfolio_container {
+        width: calc(112% - 48px);
+    }
+    .productdesign .portfolio_container img{
+       height: 380px;
     }
 }
