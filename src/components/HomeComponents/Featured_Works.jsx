@@ -23,7 +23,8 @@ const Featured_Works = () => {
 
             </div>
             <div className="right_side">
-                <Button title={"View all projects"} />
+               <Button title={"View all projects"} link={'/digital-product'} />
+            
 
             </div>
 
