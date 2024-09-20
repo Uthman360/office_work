@@ -103,7 +103,7 @@
 
 
 .hero_section {
-    background-image: url(../../assets/Group-6385-1.png) !important;
+    background-image: url(../../assets/image/Group-6385-1.png) !important;
     background-position: 50% 5px;
     background-repeat: no-repeat;
     padding: 55px 16px;
@@ -156,7 +156,6 @@
     margin-right: 16px !important;
     padding: 5px;
 }
-
 
 /* Featured Works Section */
 .featured_works {
