@@ -12,7 +12,10 @@ import Momentumservices from "../../assets/inner/Momentum-services.png"
 import InnerSlider from './innerComp/InnerSlider2';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import useDocumentTitle from '../../config/useDocumentTitle';
 const Momentum = () => {
+    useDocumentTitle("Momentum - Zeeshan")
+
     useEffect(() => {
         AOS.init({ duration: 1000 }); // Initialize AOS with duration
     }, []);

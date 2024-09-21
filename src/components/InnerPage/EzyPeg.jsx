@@ -24,9 +24,12 @@ import Topupandeticket from "../../assets/inner/Top-up-and-eticket.png"
 import InnerSlider from './innerComp/InnerSlider';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import useDocumentTitle from '../../config/useDocumentTitle';
 
 
 const EzyPeg = () => {
+    useDocumentTitle("EzyPeg - Zeeshan")
+
     useEffect(() => {
         AOS.init({ duration: 1000 }); // Initialize AOS with duration
     }, []);

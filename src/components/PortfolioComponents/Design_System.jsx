@@ -2,7 +2,10 @@ import React from 'react'
 import HeroSection from './HeroSection'
 import update from "../../assets/image/update.gif"
 import "./style.css";
+import useDocumentTitle from '../../config/useDocumentTitle';
 const Design_System = () => {
+    useDocumentTitle("Design System - Zeeshan")
+
     return (
         <div>
             <HeroSection />

@@ -11,7 +11,10 @@ import checkoutthrive from "../../assets/inner/checkout-thrive.png"
 import InnerSlider from './innerComp/InnerSlider2';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import useDocumentTitle from '../../config/useDocumentTitle';
 const Thrive = () => {
+    useDocumentTitle("Thrive - Zeeshan")
+
     useEffect(() => {
         AOS.init({ duration: 1000 }); // Initialize AOS with duration
     }, []);

@@ -4,7 +4,10 @@ import HeroSection from './HeroSection';
 import ReadMore from './readMore';
 import { caseStudiesData } from '../../json/case_studies';
 import { Link } from 'react-router-dom';
+import useDocumentTitle from '../../config/useDocumentTitle';
 const Case_studies = () => {
+    useDocumentTitle("Product Design - Zeeshan")
+
     return (
         <div>
             <HeroSection />

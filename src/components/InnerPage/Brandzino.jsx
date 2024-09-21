@@ -12,7 +12,10 @@ import Group_10695 from "../../assets/inner/Group-10695.png";
 import InnerSlider from './innerComp/InnerSlider2';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import useDocumentTitle from '../../config/useDocumentTitle';
 const Brandzino = () => {
+    useDocumentTitle("Brandzino - Zeeshan")
+
     useEffect(() => {
         AOS.init({ duration: 1000 }); // Initialize AOS with duration
     }, []);

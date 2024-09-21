@@ -4,7 +4,10 @@ import HeroSection from './HeroSection';
 import ReadMore from './readMore';
 import { Visualdesign } from '../../json/visual_design';
 import { Link } from 'react-router-dom';
+import useDocumentTitle from '../../config/useDocumentTitle';
 const Visual_Design = () => {
+    useDocumentTitle("Visual Design - Zeeshan")
+
     return (
         <div>
             <HeroSection />

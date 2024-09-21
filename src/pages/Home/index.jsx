@@ -7,7 +7,10 @@ import Portfolio from '../../components/HomeComponents/Portfolio'
 import Client_Section from '../../components/HomeComponents/Client_Section'
 import Partners from '../../components/HomeComponents/Partners'
 import "./style.css"
+import useDocumentTitle from '../../config/useDocumentTitle'
 const Home = () => {
+    useDocumentTitle('Zeeshan');
+
     return (
         <>
             <div className="home">

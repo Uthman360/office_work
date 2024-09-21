@@ -17,7 +17,10 @@ import Single_Banner from './innerComp/Single_Banner';
 import Portfolio_Info from './innerComp/Portfolio_Info';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import useDocumentTitle from '../../config/useDocumentTitle';
 const UpBeing = () => {
+    useDocumentTitle("UpBeing - Zeeshan")
+
     useEffect(() => {
         AOS.init({ duration: 1000 }); // Initialize AOS with duration
     }, []);

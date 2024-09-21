@@ -14,9 +14,12 @@ import flow_mockup from "../../assets/inner/clinic-flow_mockup.png";
 import InnerSlider from './innerComp/InnerSlider';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import useDocumentTitle from '../../config/useDocumentTitle';
 
 
 const PegDoc = () => {
+    useDocumentTitle("PegDoc - Zeeshan")
+
     useEffect(() => {
         AOS.init({ duration: 1000 }); // Initialize AOS with duration
     }, []);

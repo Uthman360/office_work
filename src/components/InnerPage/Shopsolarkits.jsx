@@ -18,7 +18,10 @@ import MyQuotesLanding from "../../assets/inner/My-Quotes-Landing-1.png";
 import InnerSlider from './innerComp/InnerSlider2';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import useDocumentTitle from '../../config/useDocumentTitle';
 const Shopsolarkits = () => {
+    useDocumentTitle("Shopsolarkits - Zeeshan")
+
     useEffect(() => {
         AOS.init({ duration: 1000 }); // Initialize AOS with duration
     }, []);

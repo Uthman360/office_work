@@ -11,7 +11,10 @@ import WHS_flyer_mock from '../../assets/inner/WHS_flyer_mock.png';
 import InnerSlider from './innerComp/InnerSlider2';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import useDocumentTitle from '../../config/useDocumentTitle';
 const Winnipeg = () => {
+    useDocumentTitle("Winnipeg - Zeeshan")
+    
     useEffect(() => {
         AOS.init({ duration: 1000 }); // Initialize AOS with duration
     }, []);

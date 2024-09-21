@@ -3,7 +3,10 @@ import { visaul_design } from '../../json/portfolio'
 import "../HomeComponents/style.css";
 import arrow from "../../assets/image/arrow.svg"
 import { Link } from 'react-router-dom';
+import useDocumentTitle from '../../config/useDocumentTitle';
 const VisualDesgin = () => {
+    useDocumentTitle("Visual Desgin - Zeeshan")
+
   return (
     <div className="productdesign">
     <h2 className='product_h'>Visual design</h2>

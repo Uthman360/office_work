@@ -3,7 +3,10 @@ import "../HomeComponents/style.css";
 import arrow from "../../assets/image/arrow.svg"
 import { portfolio } from '../../json/portfolio';
 import { Link } from 'react-router-dom';
+import useDocumentTitle from '../../config/useDocumentTitle';
 const ProductDesign = () => {
+    useDocumentTitle("Product Desgin - Zeeshan")
+
     return (
         <div className="productdesign">
             <h2 className='product_h'>Product design</h2>

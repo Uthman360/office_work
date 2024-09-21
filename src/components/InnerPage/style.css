@@ -16,7 +16,8 @@
 
 
 .upbeing {}
-.parent{
+
+.parent {
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;
@@ -33,7 +34,8 @@
 .being {
     background-color: #fff;
 }
-.productdesign{
+
+.productdesign {
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;
@@ -91,7 +93,7 @@
 }
 
 .single_banner img {
-    height: 755px;
+    height: auto;
     width: 100%;
     display: block;
     object-fit: cover;
@@ -136,7 +138,7 @@
 }
 
 
-.info_container  .info_item span {
+.info_container .info_item span {
     width: calc(100% - 180px);
     color: #1D1C1B;
     font-size: 24px;
@@ -343,7 +345,7 @@
     justify-content: space-between;
 }
 
-.being .inner_slider .portfolio_info span  {
+.being .inner_slider .portfolio_info span {
     display: block;
     color: #0237F3;
     font-family: NeueHaasDisplayRoman, sans-serif;
@@ -355,7 +357,8 @@
     text-transform: uppercase;
     margin-bottom: 8px;
 }
-.productdesign .portfolio_info span  {
+
+.productdesign .portfolio_info span {
 
 
     display: block;
@@ -420,7 +423,8 @@
     margin: 0 0 8px 0;
     font-family: "Roboto", Sans-serif;
 }
-.productdesign .portfolio_info  p {
+
+.productdesign .portfolio_info p {
 
     color: #000;
     font-size: 20px;
@@ -517,26 +521,35 @@
 }
 
 
-#mySwiper{
+#mySwiper {
     padding: 0 60px !important;
     margin: 0 30px !important;
 }
-#mySwiper img{
+
+#mySwiper img {
     padding: 40px 100px;
 }
-.swiper-button-prev,.swiper-button-next{
+
+.swiper-button-prev,
+.swiper-button-next {
     color: #000 !important;
-   
+
 }
-.swiper-button-next, .swiper-button-prev {
-    width: 20px;  /* Adjust this for the desired width */
-    height: 20px; /* Adjust this for the desired height */
-  }
-  
-  .swiper-button-next::after, .swiper-button-prev::after {
-    font-size: 16px; /* Adjust the size of the arrow icon inside the buttons */
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 20px;
+    /* Adjust this for the desired width */
+    height: 20px;
+    /* Adjust this for the desired height */
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 16px;
+    /* Adjust the size of the arrow icon inside the buttons */
     font-weight: bold !important;
-  }
+}
 
 #mySwiper {
     padding: 0 60px !important;
@@ -662,9 +675,10 @@
         font-size: 18px;
     }
 
-    #mySwiper img{
+    #mySwiper img {
         padding: 40px 0px;
     }
+
     #mySwiper img {
         padding: 40px 0px;
     }
@@ -672,7 +686,8 @@
     .productdesign .portfolio_container {
         width: calc(112% - 48px);
     }
-    .productdesign .portfolio_container img{
-       height: 380px;
+
+    .productdesign .portfolio_container img {
+        height: 380px;
     }
 }

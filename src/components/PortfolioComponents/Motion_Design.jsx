@@ -14,8 +14,10 @@ import mo6 from '../../assets/image/mo6.png';
 import mo7 from '../../assets/image/mo7.png';
 import mo8 from '../../assets/image/mo8.png';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'; // Example using react-icons
+import useDocumentTitle from '../../config/useDocumentTitle';
 
 const Motion_Design = () => {
+    useDocumentTitle("Motion Design - Zeeshan")
     const [videoSrc, setVideoSrc] = useState('https://player.vimeo.com/video/734788811');
 
     const handleSlideClick = (src) => {
