@@ -10,15 +10,16 @@ const Footer = () => {
                 <div className="inner_footer">
                     <img src={LOGO} alt="" />
                     <div className="footer_content">
-                        <h3>Have something in mind?</h3>
-                        <Button title={"lets Talk"} />
+                        <h3>We welcome your ideas!</h3>
+                        <Button title={"Lets Talk"} />
                     </div>
                 </div>
 
             </div>
             <div className="footer_last">
                 <p>© Made by Ceevisual studio. All rights reserved.</p>
-                <img src={linkedin_footer} alt="" />
+                <a href="https://www.linkedin.com/in/zeeshan-shah-pmp%C2%AE%EF%B8%8F-59406742/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> <img src={linkedin_footer} alt="" /></a>
+               
             </div>
         </>
     )

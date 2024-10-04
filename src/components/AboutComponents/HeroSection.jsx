@@ -3,7 +3,7 @@ import "./style.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Button from '../HomeComponents/Button';
-import profilePhoto from "../../assets/image/profile-photo.png"
+import profilePhoto from "../../assets/image/whatsapp_image.jpg"
 import DD from "../../assets/image/DD.png"
 import FAQ from './FAQ';
 
@@ -55,7 +55,7 @@ const HeroSection = () => {
                 </div>
                 <div className="right_about_content">
                     <div className="heading" data-aos="fade-left">
-                        <h3>\ MY DEVELOPMENT PHILOSOPHY </h3>
+                        <h3>MY DEVELOPMENT PHILOSOPHY </h3>
                     </div>
                     <FAQ id="01." title={"Quiet the noise"} para="Streamline code and design to eliminate clutter, ensuring a seamless user experience. Achieve a balance between functionality and aesthetics to forge a meaningful connection between the application and its users." />
                     <FAQ id="02." title={"Solve the real problem"} para="I focus on addressing both user and business needs. Instead of chasing trendy features, I invest my energy in understanding the core problem. For me, development is not just technical; it’s a purposeful journey that adapts to users’ needs." />
@@ -68,7 +68,7 @@ const HeroSection = () => {
 
             <div className="footer_about">
                 <h3>THANKS FOR STOPPING BY</h3>
-                <a href="#"> <span>Get in touch with me on Linkedin</span></a>
+                <a href="https://www.linkedin.com/in/zeeshan-shah-pmp%C2%AE%EF%B8%8F-59406742/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> <span>Get in touch with me on Linkedin</span></a>
             </div>
         </div>
     )

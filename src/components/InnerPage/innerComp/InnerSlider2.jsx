@@ -12,7 +12,7 @@ const InnerSlider = () => {
     return (
         <div className='inner_slider'>
             <div className="title">
-                <h3>\ SEE MORE PROJECTS</h3>
+                <h3>SEE MORE PROJECTS</h3>
 
                 <div className="custom-navigation">
                     <button className="custom-prev-inner" >

@@ -11,7 +11,7 @@ const Featured_Works = () => {
         <div className='featured_works'>
             <div className="left_side">
                 <div className="fea_heading custom-fade-up" data-aos="fade-right">
-                    <h1>\ MY Featured Works  </h1>
+                    <h1>MY Featured Works  </h1>
                 </div>
 
                 <div className="fea_desc" data-aos="fade-up">

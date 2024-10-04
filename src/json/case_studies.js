@@ -7,36 +7,36 @@ export const caseStudiesData = [
         "id": 1,
         "title": "UpBeing",
         "category": "Product design",
-        "description": "A transformative platform, unlocking automated habit-tracking, providing personalized insights, and elevating your daily routine. Where connectivity meets empowerment, it fosters positive habits for intentional and fulfilling personal growth.",
-        link: "/digital-product/upbeing",
-        productlink:"/digital-product/productdesign",
+        "description": "We designed UpBeing as a transformative platform that unlocks automated habit-tracking, providing personalized insights, and elevating daily routines. By combining connectivity and empowerment, we help users foster positive habits for intentional and fulfilling personal growth.",
+        "link": "/digital-product/upbeing",
+        "productlink": "/digital-product/productdesign",
         "image": ThumbUpbeing
     },
     {
         "id": 2,
         "title": "PegDoc",
         "category": "Product design",
-        "description": "We created PegDoc to solve patient problems, beginning with online appointment booking. With PegDoc, you can find family doctors in your neighborhood, check your doctors’ schedule for appointments, available time slots in walk-in clinic and book instantly online, select family doctor based on verified reviews, and tailored reminders. Fill them out online, just once, and keep them forever.",
-        link: "/digital-product/pegdoc",
-        productlink:"/digital-product/productdesign",
+        "description": "With PegDoc, we set out to solve patient problems by creating an easy-to-use platform for online appointment booking. We ensure that users can find family doctors in their neighborhood, check schedules, and book instantly. We've streamlined the process, offering verified reviews, tailored reminders, and a secure way to store patient information.",
+        "link": "/digital-product/pegdoc",
+        "productlink": "/digital-product/productdesign",
         "image": Rectangle
     },
-
     {
         "id": 3,
         "title": "EzyPeg",
         "category": "Product design",
-        "description": "One-stop local transit app that I built to help commuters experience their journey at ease",
-        link: "/digital-product/ezypeg",
-        productlink:"/digital-product/productdesign",
+        "description": "We developed EzyPeg to make commuting easier by creating a one-stop local transit app, helping commuters navigate their journeys with ease.",
+        "link": "/digital-product/ezypeg",
+        "productlink": "/digital-product/productdesign",
         "image": Rectangle2
     },
     {
         "id": 4,
         "title": "NotBoard",
         "category": "Product design",
-        "description": "There is no excerpt because this is a protected post.",
-        productlink:"/digital-product/productdesign",
+        "description": "This is a protected post, and we prioritize safeguarding sensitive information.",
+        "productlink": "/digital-product/productdesign",
         "image": Rectangle3
-    },
+    }
+    
 ]

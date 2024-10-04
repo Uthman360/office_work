@@ -62,13 +62,13 @@ const UpBeing = () => {
                     <div className="statement" data-aos="fade-up">
                         <h2>THE PROBLEM STATEMENT</h2>
 
-                        <p>Our current value prop is based on helping users understand their own wellbeing and empowering them to make change by understanding how their behaviours and emotions affect their wellbeing. However, this ability is only self-reflective, and limited to a ‘Single Player Experience’ which does not allow for users to share or engage with other users.</p>
-                        <p>We are at risk for users churning from the app, once they feel they have ‘seen it all’, or made improvements based on their own data.
+                        <p>Individuals currently use the UpBeing app to understand their well-being and make meaningful changes by reflecting on their behaviors and emotions. However, this journey is limited to a self-reflective, "single-player" experience, preventing users from sharing their progress or engaging with others.
 
                         </p>
-                        <p>The introduction of social features (or a multi-player experience) for the UpBeing app is intended to achieve an increase in daily active users, and increase user retention overall.
-
+                        <p>As users feel they have explored all features or made improvements based on their own data, they may lose interest and discontinue using the app.
                         </p>
+                        <p>Introducing social features, or a "multi-player" experience, could help users connect, share insights, and engage with a community, fostering increased daily activity and long-term retention within the app.
+</p>
                     </div>
                     <div className="group_about" data-aos="fade-up">
                         <p>We know that social features give an app the potential for virality. But what do social features look like for UpBeing? How do we ensure our social features meet customer expectations?  The overall objective of this research is to develop a deeper understanding of what users expect and want from social/multi-player offerings on the app.
