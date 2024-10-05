@@ -9,7 +9,7 @@ const VideoSection = () => {
             <LazyLoad>
                 <video
                     id="videoIframe"
-                    src={'https://res.cloudinary.com/db3swvtoo/video/upload/v1726862906/dftlprrqu5lal5bxcocg.mp4'}
+                    src={'https://res.cloudinary.com/db3swvtoo/video/upload/v1728112938/t1bhv53whkzzp5hzasey.mp4'}
                     width="100%"
                     height="auto"
                     autoPlay

@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
             <div className="footer_last">
                 <p>© Made by Ceevisual studio. All rights reserved.</p>
-                <a href="https://www.linkedin.com/in/zeeshan-shah-pmp%C2%AE%EF%B8%8F-59406742/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> <img src={linkedin_footer} alt="" /></a>
+                <a href="https://www.linkedin.com/in/zeeshan-shah-pmp%C2%AE%EF%B8%8F-59406742/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target='_blank'> <img src={linkedin_footer} alt="" /></a>
                
             </div>
         </>

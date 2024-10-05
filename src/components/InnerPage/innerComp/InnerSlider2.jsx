@@ -80,11 +80,13 @@ const InnerSlider = () => {
                                             <img width={182} height={182} src={arrow} alt="" />
                                         </Link>
                                         <div className="portfolio_info">
-                                        <span><Link to={item.productlink}>{item.role}</Link></span>
-                                        <h3><Link to={item.link}>{item.Title}</Link></h3>
-                                            <p>{item.para}
+                                            <span><Link to={item.productlink}>{item.role}</Link></span>
+                                            <Link to={item.link}>
+                                                <h3>{item.Title}</h3>
+                                                <p>{item.para}
 
-                                            </p>
+                                                </p>
+                                            </Link>
                                         </div>
                                     </div></SwiperSlide>
                                 )
@@ -97,8 +99,8 @@ const InnerSlider = () => {
                     </div>
 
                 </Swiper>
-            </div>
-        </div>
+            </div >
+        </div >
     )
 }
 

@@ -82,10 +82,12 @@ const InnerSlider = () => {
                                         </Link>
                                         <div className="portfolio_info">
                                             <span><Link to={item.productlink}>{item.role}</Link></span>
-                                            <h3><Link to={item.link}>{item.Title}</Link></h3>
-                                            <p>{item.para}
+                                            <Link to={item.link}>
+                                                <h3>{item.Title}</h3>
+                                                <p>{item.para}
 
-                                            </p>
+                                                </p>
+                                            </Link>
                                         </div>
                                     </div></SwiperSlide>
                                 )

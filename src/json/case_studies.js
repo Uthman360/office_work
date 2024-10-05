@@ -30,13 +30,6 @@ export const caseStudiesData = [
         "productlink": "/digital-product/productdesign",
         "image": Rectangle2
     },
-    {
-        "id": 4,
-        "title": "NotBoard",
-        "category": "Product design",
-        "description": "This is a protected post, and we prioritize safeguarding sensitive information.",
-        "productlink": "/digital-product/productdesign",
-        "image": Rectangle3
-    }
+    
     
 ]

@@ -68,7 +68,7 @@ const HeroSection = () => {
 
             <div className="footer_about">
                 <h3>THANKS FOR STOPPING BY</h3>
-                <a href="https://www.linkedin.com/in/zeeshan-shah-pmp%C2%AE%EF%B8%8F-59406742/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> <span>Get in touch with me on Linkedin</span></a>
+                <a href="https://www.linkedin.com/in/zeeshan-shah-pmp%C2%AE%EF%B8%8F-59406742/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target='_blank'> <span>Get in touch with me on Linkedin</span></a>
             </div>
         </div>
     )
