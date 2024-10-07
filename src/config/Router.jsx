@@ -19,6 +19,7 @@ import Shopsolarkits from '../components/InnerPage/Shopsolarkits';
 import Winnipeg from '../components/InnerPage/Winnipeg';
 import ProductDesign from '../components/InnerPage/ProductDesign';
 import VisualDesgin from '../components/InnerPage/VisualDesgin';
+import Project from '../components/PortfolioComponents/Project';
 
 const AppRouter = () => {
     return (
@@ -28,20 +29,13 @@ const AppRouter = () => {
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/digital-product' element={<Case_studies />} />
-                <Route path='/design-system' element={<Design_System />} />
-                <Route path='/visual-design' element={<Visual_Design />} />
-                <Route path='/motion-design' element={<Motion_Design />} />
+                <Route path='/web-dev' element={<Project />} />
+                <Route path='/mobile-apps' element={<Motion_Design />} />
                 <Route path='/about-me' element={<About />} />
                 <Route path='/digital-product/upbeing' element={<UpBeing />} />
                 <Route path='/digital-product/pegdoc' element={<PegDoc />} />
                 <Route path='/digital-product/ezypeg' element={<EzyPeg />} />
-                <Route path='/visual-design/thrive' element={<Thrive />} />
-                <Route path='/visual-design/momentum' element={<Momentum />} />
-                <Route path='/visual-design/brandzino' element={<Brandzino />} />
-                <Route path='/visual-design/shopsolarkits' element={<Shopsolarkits />} />
-                <Route path='/visual-design/whs' element={<Winnipeg />} />
                 <Route path='/digital-product/productdesign' element={<ProductDesign />} />
-                <Route path='/visual-design/productdesign' element={<VisualDesgin />} />
 
 
 

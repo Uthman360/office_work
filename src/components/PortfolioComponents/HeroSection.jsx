@@ -15,12 +15,10 @@ const HeroSection = () => {
         switch (pathname) {
             case '/digital-product':
                 return 'Case studies';
-            case '/design-system':
-                return 'Design system';
-            case '/visual-design':
-                return 'Visual design';
-            case '/motion-design':
-                return 'Motion design';
+            case '/web-dev':
+                return 'Web Development';
+            case '/mobile-apps':
+                return 'Mobile Apps';
             default:
                 return 'Case studies';
         }
@@ -44,25 +42,18 @@ const HeroSection = () => {
                         onClick={() => handleClick('Case studies')}
                     />
                 </Link>
-                <Link to={'/design-system'}>
+                <Link to={'/web-dev'}>
                     <Button
-                        title={"Design system"}
-                        isActive={activeButton === 'Design system'}
-                        onClick={() => handleClick('Design system')}
+                        title={"Web Development"}
+                        isActive={activeButton === 'Web Development'}
+                        onClick={() => handleClick('Web Development')}
                     />
                 </Link>
-                <Link to={'/visual-design'}>
+                <Link to={'/mobile-apps'}>
                     <Button
-                        title={"Visual design"}
-                        isActive={activeButton === 'Visual design'}
-                        onClick={() => handleClick('Visual design')}
-                    />
-                </Link>
-                <Link to={'/motion-design'}>
-                    <Button
-                        title={"Motion design"}
-                        isActive={activeButton === 'Motion design'}
-                        onClick={() => handleClick('Motion design')}
+                        title={"Mobile Apps"}
+                        isActive={activeButton === 'Mobile Apps'}
+                        onClick={() => handleClick('Mobile Apps')}
                     />
                 </Link>
             </div>
