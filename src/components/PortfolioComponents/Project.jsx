@@ -183,7 +183,7 @@ const Portfolio = () => {
                                     <div className="project_details">
                                         <p>{item.description}</p>
 
-                                        <a href={item.link} target='_blank'>  <Button title={"Live Now"} /></a>
+                                        <a href={item.link} target='_blank'>  <Button title={"View Website"} /></a>
                                     </div>
                                 </div>
                             </div>
