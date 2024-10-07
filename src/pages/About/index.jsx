@@ -6,7 +6,7 @@ const About = () => {
     useDocumentTitle("About - Zeeshan")
 
     return (
-        <div>
+        <div className='home'>
             <HeroSection />
         </div>
     )
