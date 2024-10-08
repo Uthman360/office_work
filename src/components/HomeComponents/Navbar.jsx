@@ -11,14 +11,14 @@ const Navbar = () => {
     return (
         <nav className='border-b-2'>
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-[2rem] md:p-4">
-                <a href="/" className="flex items-center">
+                <Link to="/" className="flex items-center">
                     <img
                         src={LOGO}
                         className="h-8"
                         alt="Flowbite Logo"
                     />
 
-                </a>
+                </Link>
 
                 {isOpen ? <button onClick={() => setIsOpen(false)}><IoMdClose /></button> : <button
                     onClick={() => setIsOpen(true)}
