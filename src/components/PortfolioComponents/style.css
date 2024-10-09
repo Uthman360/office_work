@@ -311,7 +311,9 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 }
-
+.player .vp-video-wrapper .vp-preview{
+    border-radius: 5px;
+}
 .motion_design .swiper_Wrapper {
     padding: 80px 0px 150px 0px;
  
