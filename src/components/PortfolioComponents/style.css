@@ -266,8 +266,8 @@
 .custom-next,
 .custom-prev {
     background: #fff;
-    width: 65px; /* Fixed size */
-    height: 65px; /* Fixed size */
+    width: 60px;
+    height: 60px;
     border: 1px solid #000;
     border-radius: 50%;
     display: flex;
@@ -278,18 +278,19 @@
     position: absolute;
     z-index: 9999;
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 /* Positioning the previous button to the left */
 .custom-prev {
-    left: 10px; /* Fixed distance from the left edge */
+    left: 0px; /* Fixed distance from the left edge */
     top: 50%; /* Vertically center it */
     transform: translateY(-50%);
 }
 
 /* Positioning the next button to the right */
 .custom-next {
-    right: 10px; /* Fixed distance from the right edge */
+    right: 0px; /* Fixed distance from the right edge */
     top: 50%; /* Vertically center it */
     transform: translateY(-50%);
 }
@@ -304,7 +305,12 @@
     width: 84%;
 
 }
+.mySwiper img{
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
+}
 
 .motion_design .swiper_Wrapper {
     padding: 80px 0px 150px 0px;

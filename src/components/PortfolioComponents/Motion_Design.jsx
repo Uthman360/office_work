@@ -18,7 +18,7 @@ import useDocumentTitle from '../../config/useDocumentTitle';
 
 const Motion_Design = () => {
     useDocumentTitle("Motion Design - Zeeshan")
-    const [videoSrc, setVideoSrc] = useState('https://player.vimeo.com/video/734788811');
+    const [videoSrc, setVideoSrc] = useState('https://player.vimeo.com/video/1017996427');
 
     const handleSlideClick = (src) => {
         setVideoSrc(src);
@@ -47,10 +47,7 @@ const Motion_Design = () => {
                         className="mySwiper"
                         spaceBetween={50}
                         loop={true}
-                        autoplay={{
-                            delay: 2500,
-                            disableOnInteraction: false,
-                        }}
+                      
                         breakpoints={{
                             576: {
                                 slidesPerView: 1,
@@ -69,23 +66,17 @@ const Motion_Design = () => {
                                 spaceBetween: 50,
                             },
                         }}
-                        onSlideChange={() => console.log('slide change')}
-                        onSwiper={(swiper) => console.log(swiper)}
+                       
                     >
-                        <SwiperSlide onClick={() => handleSlideClick("https://player.vimeo.com/video/512676002")}><img src={mo1} alt="Slide 1" /></SwiperSlide>
-                        <SwiperSlide onClick={() => handleSlideClick("https://player.vimeo.com/video/709573559")}><img src={mo2} alt="Slide 2" /></SwiperSlide>
-                        <SwiperSlide onClick={() => handleSlideClick("https://player.vimeo.com/video/411858147")}><img src={mo3} alt="Slide 3" /></SwiperSlide>
-                        <SwiperSlide onClick={() => handleSlideClick("https://player.vimeo.com/video/734788811")}><img src={mo4} alt="Slide 4" /></SwiperSlide>
-                        <SwiperSlide onClick={() => handleSlideClick("https://player.vimeo.com/video/784811167")}><img src={mo5} alt="Slide 5" /></SwiperSlide>
-                        <SwiperSlide onClick={() => handleSlideClick("https://player.vimeo.com/video/391016097")}><img src={mo6} alt="Slide 6" /></SwiperSlide>
-                        <SwiperSlide onClick={() => handleSlideClick("https://player.vimeo.com/video/391014210")}><img src={mo7} alt="Slide 7" /></SwiperSlide>
-                        <SwiperSlide onClick={() => handleSlideClick("https://player.vimeo.com/video/411827376")}><img src={mo8} alt="Slide 8" /></SwiperSlide>
+                        <SwiperSlide onClick={() => handleSlideClick("https://player.vimeo.com/video/1017996427")}><img src={"https://i.vimeocdn.com/video/1936103708-bb6de21e67168190f59d8834da829564c328308c46794cb29ebe472568300f01-d?mw=1100&mh=619"} alt="Slide 1" /></SwiperSlide>
+                        <SwiperSlide onClick={() => handleSlideClick("https://player.vimeo.com/video/1017996335")}><img src={"https://i.vimeocdn.com/video/1936103576-7819ffda92d7fc66f9fc05324cf2f4cbeef5b5d20aa8d92da572be6248604f0f-d?mw=1100&mh=619"} alt="Slide 2" /></SwiperSlide>
+                        <SwiperSlide onClick={() => handleSlideClick("https://player.vimeo.com/video/1017996247")}><img src={"https://i.vimeocdn.com/video/1936103498-1c7e61d99d08c4f453eef2683230dcc01617f9e1b6814482055a84bb3016dba1-d?mw=1100&mh=619"} alt="Slide 3" /></SwiperSlide>
+                     
 
                         {/* Custom Navigation Buttons */}
-                        <div className="s_btn">
                             <div className="custom-prev"><FaArrowLeft /></div>
                             <div className="custom-next"><FaArrowRight /></div>
-                        </div>
+                   
                     </Swiper>
                 </div>
             </div>
