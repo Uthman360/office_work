@@ -48,7 +48,7 @@
 }
 
 .navbar li {
-    margin: 0px 3vw 0px 1vw;
+    margin: 0px 1vw 0px 2vw;
 }
 
 .a_link {
@@ -337,10 +337,13 @@
     background-image: url("../../assets/bg_client.jpg") !important;
     background-position: bottom center;
     background-repeat: repeat-x;
+    max-width: 1500px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .inner_section {
-    padding-left: 100px;
+    padding-left: 20px;
     padding-top: 125px;
 }
 

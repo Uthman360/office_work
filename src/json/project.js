@@ -8,6 +8,11 @@ import p9 from "../assets/project/p9.jfif"
 import p10 from "../assets/project/p10.png"
 import p11 from "../assets/project/p12.png"
 import p12 from "../assets/project/p13.png"
+import p14 from "../assets/project/p14.png"
+import p15 from "../assets/project/p15.png"
+import p16 from "../assets/project/p16.png"
+import p17 from "../assets/project/p17.png"
+
 
 
 export const portfolioData = [
@@ -236,7 +241,7 @@ export const portfolioData = [
     {
         id: 25,
         title: 'The Hair App',
-        image: 'https://thehair.app/favicon.ico', // Example logo or screenshot URL
+        image: p14, // Example logo or screenshot URL
         tech: 'Bubble.io',
         description: 'The Hair App connects users with hairstylists through an intuitive platform built on Bubble.io.',
         category: 'Bubble.io',
@@ -309,7 +314,7 @@ export const portfolioData = [
     {
         id: 33,
         title: 'Hedra',
-        image: 'https://www.hedra.com/favicon.ico', // Example logo or screenshot URL
+        image: 'https://www.hedra.com/assets/images/create-card.webp', // Example logo or screenshot URL
         tech: 'NFT & Crypto',
         description: 'Hedra offers innovative blockchain solutions and infrastructure for NFT and crypto projects, focusing on scalability and security.',
         category: 'NFT & Crypto',
@@ -318,7 +323,7 @@ export const portfolioData = [
     {
         id: 34,
         title: 'Circle',
-        image: 'https://circle.so/favicon.ico', // Example logo or screenshot URL
+        image: 'https://cdn.builder.io/api/v1/image/assets%2Fd5e2d72a033944e1a916c5c34902a1ff%2F84455b90259a4b2e9b9065090671d0d1?format=webp&width=1600', // Example logo or screenshot URL
         tech: 'NFT & Crypto',
         description: 'Circle is a community platform that facilitates crypto transactions and NFT trading, providing tools for creators and collectors.',
         category: 'NFT & Crypto',
@@ -327,7 +332,7 @@ export const portfolioData = [
     {
         id: 35,
         title: 'Anee Atelier',
-        image: 'https://www.aneeatelier.com/favicon.ico', // Example logo or screenshot URL
+        image: 'https://images.squarespace-cdn.com/content/v1/6433fd9f3419495a7b9eb98b/8d83b135-346c-4df1-a05a-0b1bc4ccc25c/image-asset.jpeg?format=750w', // Example logo or screenshot URL
         tech: 'SquareSpace',
         description: 'Anee Atelier is a modern portfolio website showcasing creative design and fashion using SquareSpace\'s elegant templates.',
         category: 'SquareSpace',
@@ -390,7 +395,7 @@ export const portfolioData = [
     {
         id: 42,
         title: 'Repeat Studio Freight',
-        image: 'https://repeat.studiofreight.com/favicon.ico', // Example logo or screenshot URL
+        image: p15, // Example logo or screenshot URL
         tech: 'React & Angular',
         description: 'A dynamic and visually impressive website built with React, showcasing the work of Studio Freight with engaging animations and smooth transitions.',
         category: 'React & Angular',
@@ -408,7 +413,7 @@ export const portfolioData = [
     {
         id: 44,
         title: 'Nainoa Langer',
-        image: 'https://www.nainoalanger.com/favicon.ico', // Example logo or screenshot URL
+        image: p16, // Example logo or screenshot URL
         tech: 'React & Angular',
         description: 'A sleek and interactive website built with React, highlighting Nainoa Langer’s creative portfolio through engaging animations and transitions.',
         category: 'React & Angular',
@@ -453,7 +458,7 @@ export const portfolioData = [
     {
         id: 45,
         title: 'MarketWatch',
-        image:p11,
+        image:p17,
         tech: '.NET Core',
         description: 'A leading financial news and information website that provides real-time market data and insights, built on .NET Core for enhanced performance.',
         category: '.NET Core',

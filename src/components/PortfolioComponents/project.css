@@ -16,7 +16,7 @@
 
 /* Filter Buttons */
 .portfolio-filters {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .portfolio-filters button {
@@ -45,7 +45,7 @@
 /* Portfolio Items */
 .portfolio-items {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: 2fr 2fr 2fr;
     gap: 20px;
 }
 
