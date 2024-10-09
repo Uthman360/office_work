@@ -266,8 +266,8 @@
 .custom-next,
 .custom-prev {
     background: #fff;
-    width: 55px; /* Fixed size */
-    height: 55px; /* Fixed size */
+    width: 65px; /* Fixed size */
+    height: 65px; /* Fixed size */
     border: 1px solid #000;
     border-radius: 50%;
     display: flex;

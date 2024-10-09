@@ -3,7 +3,7 @@ import "./style.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Button from '../HomeComponents/Button';
-import profilePhoto from "../../assets/image/whatsapp_image.jpg"
+import profilePhoto from "../../assets/image/2.jpg"
 import DD from "../../assets/image/DD.png"
 import FAQ from './FAQ';
 

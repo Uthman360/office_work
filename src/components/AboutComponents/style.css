@@ -63,6 +63,9 @@
     padding: 40px 30px;
     background-color: none;
 }
+.hero_section_about .right_about img{
+    border-radius: 5px;
+}
 
 .about_content {
     display: flex;
