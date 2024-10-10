@@ -138,13 +138,6 @@
 
 }
 
-
-
-
-
-
-
-
 @media (max-width: 1024px) {
     .portfolio-items {
         grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
