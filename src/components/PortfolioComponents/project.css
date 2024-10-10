@@ -45,7 +45,7 @@
 /* Portfolio Items */
 .portfolio-items {
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for large screens */
     gap: 20px;
 }
 
@@ -136,4 +136,23 @@
 .card:hover{
     transform: translateY(-10px);
 
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .portfolio-items {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .portfolio-items {
+        grid-template-columns: 1fr; /* 1 column for small screens */
+    }
 }
