@@ -311,8 +311,24 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 }
-.player .vp-video-wrapper .vp-preview{
-    border-radius: 5px;
+#vp-preview{
+    border-radius: 8px !important;
+}
+.player .vp-video-wrapper .vp-preview {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    transition: opacity .25s;
+    border-radius: 8px !important;
+}
+.video_motion iframe{
+    border-radius: 8px !important;
+    
 }
 .motion_design .swiper_Wrapper {
     padding: 80px 0px 150px 0px;

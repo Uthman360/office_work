@@ -30,7 +30,7 @@ const Portfolio = () => {
                 <div className="portfolio_container" >
                     <img src={WT} alt="" className='thumb' />
 
-                    <Link to={'/digital-product/ezypeg'} className='icon_link' style={{ left: "380px" }}>
+                    <Link to={'/digital-product/ezypeg'} className='icon_link' style={{ left: "450px" }}>
                         <img width={182} height={182} src={arrow} alt="" />
                     </Link>
                     <div className="portfolio_info">
@@ -45,7 +45,7 @@ const Portfolio = () => {
                 </div>
                 <div className="portfolio_container" >
                     <img src={thumbnail} alt="" className='thumb' />
-                    <Link to={'/digital-product/pegdoc'} className='icon_link' style={{ right: "80px" }}>
+                    <Link to={'/digital-product/pegdoc'} className='icon_link' style={{ right: "118px" }}>
                         <img width={182} height={182} src={arrow} alt="" />
                     </Link>
                     <div className="portfolio_info">
