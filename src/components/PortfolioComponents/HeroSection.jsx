@@ -17,8 +17,8 @@ const HeroSection = () => {
                 return 'Case studies';
             case '/web-dev':
                 return 'Web Development';
-            case '/mobile-apps':
-                return 'Mobile Apps';
+            case '/digital-portfolio':
+                return 'Digital Portfolio';
             default:
                 return 'Case studies';
         }
@@ -49,11 +49,11 @@ const HeroSection = () => {
                         onClick={() => handleClick('Web Development')}
                     />
                 </Link>
-                <Link to={'/mobile-apps'}>
+                <Link to={'/digital-portfolio'}>
                     <Button
-                        title={"Mobile Apps"}
-                        isActive={activeButton === 'Mobile Apps'}
-                        onClick={() => handleClick('Mobile Apps')}
+                        title={"Digital Portfolio"}
+                        isActive={activeButton === 'Digital Portfolio'}
+                        onClick={() => handleClick('Digital Portfolio')}
                     />
                 </Link>
             </div>

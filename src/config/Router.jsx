@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import Navbar from '../components/HomeComponents/Navbar';
@@ -20,17 +20,21 @@ import Winnipeg from '../components/InnerPage/Winnipeg';
 import ProductDesign from '../components/InnerPage/ProductDesign';
 import VisualDesgin from '../components/InnerPage/VisualDesgin';
 import Project from '../components/PortfolioComponents/Project';
+import ScrollToTop from './ScrollToTop';
 
 const AppRouter = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <BrowserRouter>
             <Navbar />
-
+            <ScrollToTop />
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/digital-product' element={<Case_studies />} />
                 <Route path='/web-dev' element={<Project />} />
-                <Route path='/mobile-apps' element={<Motion_Design />} />
+                <Route path='/digital-portfolio' element={<Motion_Design />} />
                 <Route path='/about-me' element={<About />} />
                 <Route path='/digital-product/upbeing' element={<UpBeing />} />
                 <Route path='/digital-product/pegdoc' element={<PegDoc />} />
