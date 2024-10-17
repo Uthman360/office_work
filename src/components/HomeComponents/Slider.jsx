@@ -29,8 +29,8 @@ const Slider = () => {
                     <SwiperSlide key={slideIndex} className="swiper-slide">
                         <div className="inner_item_container">
                             {testimonials.slice(slideIndex * 4, (slideIndex + 1) * 4).map((testimonial, index) => (
-                                <div className="item_main">
-                                    <div key={index} className="inner_item_clients">
+                                <div key={index} className="item_main">
+                                    <div  className="inner_item_clients">
                                         <img src={testimonial.Image} alt="" />
                                         <div className="content_item_clients">
                                             <h3>{testimonial.name} <span>{testimonial.position}</span></h3>

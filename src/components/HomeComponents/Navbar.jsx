@@ -43,16 +43,16 @@ const Navbar = () => {
                 </button>}
                 <div className={`${isOpen ? "block" : "hidden"} w-full md:block md:w-auto`}>
                     <ul className="flex flex-col p-4 md:flex-row md:space-x-8">
-                        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  dark:border-gray-700">
+                        <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  dark:border-gray-700">
                             <div className='navbar'>
                                 <li>
-                                    <Link to={'/'} class="block py-2 px-3 text-black rounded   a_link" aria-current="page">Home</Link>
+                                    <Link to={'/'} className="block py-2 px-3 text-black rounded   a_link" aria-current="page">Home</Link>
                                 </li>
                                 <li>
-                                    <Link to={'/digital-product'} class="block py-2 px-3 text-black rounded portfolio-link  a_link" aria-current="page" >Portfolio</Link>
+                                    <Link to={'/digital-product'} className="block py-2 px-3 text-black rounded portfolio-link  a_link" aria-current="page" >Portfolio</Link>
                                 </li>
                                 <li>
-                                    <Link to={'/about-me'} class="block py-2 px-3 text-black a_link" aria-current="page ">About me</Link>
+                                    <Link to={'/about-me'} className="block py-2 px-3 text-black a_link" aria-current="page ">About me</Link>
                                 </li>
                             </div>
                            
